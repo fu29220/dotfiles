@@ -3,9 +3,8 @@
 USER=XXX
 
 REMOTE_ARR=(
-    hpcgpu2.aitc.lycc.qihoo.net:/home/$USER/Works
-    gpu06.sys.zzzc.qihoo.net:/home/$USER/Works
-    hpcgpu18.ai.lycc.qihoo.net:/home/$USER
+    hostname:/home/$USER/Works
+    hostname:/home/$USER
 )
 ARR_LEN=${#REMOTE_ARR[*]}
 
