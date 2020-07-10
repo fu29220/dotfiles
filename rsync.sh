@@ -23,7 +23,7 @@ PJ_DIR=$(dirname $(
 
 rsync \
     --exclude .git \
-    --exclude cache \
+    --exclude rsync*.sh \
     --exclude docum \
     -avz ${PJ_DIR} $USER@${REMOTE_ARR[${ARR_ID}]}
     # -rtlq ${PJ_DIR} $USER@${REMOTE_ARR[${ARR_ID}]}
